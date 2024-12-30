@@ -1,0 +1,45 @@
+h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.underline {
+    /* flex-grow: 0; */
+    border-bottom: 2px solid goldenrod;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 20px;
+}
+.menu-item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 5px goldenrod;
+    width: 300px;
+    padding: 50px;
+    
+    place-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    display:flex;
+}
+.container{
+   /*  justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin-bottom: 20px;
+  
+
+}
+.filter-btn{
+    background-color:white;
+    color: goldenrod;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: solid 2px goldenrod;
+ 
+}
+button:hover{
+    background-color: goldenrod;
+    color: white;
+}
